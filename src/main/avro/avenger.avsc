@@ -1,0 +1,13 @@
+{
+  "namespace": "com.trungnguyen.kafka.demo.model",
+  "type": "record",
+  "name": "Avenger",
+  "fields": [
+    {"name": "name", "type": "string"},
+    {"name": "real_name", "type": "string"},
+    {"name": "movies", "type":
+    {"type": "array", "items": "string"},
+      "default": []
+    }
+  ]
+}
